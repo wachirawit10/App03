@@ -1,2 +1,19 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-cyber: #db147e;
+	--ion-color-cyber-rgb: 219,20,126;
+	--ion-color-cyber-contrast: #ffffff;
+	--ion-color-cyber-contrast-rgb: 255,255,255;
+	--ion-color-cyber-shade: #c1126f;
+	--ion-color-cyber-tint: #df2c8b;
+}
+
+.ion-color-cyber {
+	--ion-color-base: var(--ion-color-cyber);
+	--ion-color-base-rgb: var(--ion-color-cyber-rgb);
+	--ion-color-contrast: var(--ion-color-cyber-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-cyber-contrast-rgb);
+	--ion-color-shade: var(--ion-color-cyber-shade);
+	--ion-color-tint: var(--ion-color-cyber-tint);
+}
